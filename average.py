@@ -1,0 +1,20 @@
+name=input("Enter Your Name : ")
+age=int(input("Enter Your Age : "))
+a=int(input("Enter Marks Subject1 : "))
+b=int(input("Enter Marks Subject2 : "))
+c=int(input("Enter Marks Subject3 : "))
+d=int(input("Enter Marks Subject4 : "))
+e=int(input("Enter Marks Subject5 : "))
+tot=a+b+c+d+e
+ave=tot/5
+print("******************************")
+print("Marks Subject 1 \t:",a)
+print("Marks Subject 2 \t:",b)
+print("Marks Subject 3 \t:",c)
+print("Marks Subject 4 \t:",d)
+print("Marks Subject 5 \t:",e)
+print("Student Name \t:",name)
+print("Student Age \t:",age)
+print("Total \t\t:",tot)
+print("Average \t:",ave)
+
