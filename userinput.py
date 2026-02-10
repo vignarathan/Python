@@ -1,0 +1,5 @@
+name=input("Enter Your Name : ")
+age=int(input("Enter Your Age : "))
+print("***************")
+print("Your Name \t:",name)
+print("Your Age \t:",age)
