@@ -6,18 +6,15 @@ if(basic>0):
     if(basic>=100000):
         per="5%"
         tax=basic*0.05
-        net=basic-tax
     elif(basic>=80000):
         per="3%"
-        tax=basic*0.05
-        net=basic-tax
+        tax=basic*0.03
     else:
         per="0%"
-        net=basic
-        net=basic
+        tax=0
+    net=basic-tax
 else:
     print("Invalid Input")
-    
     
 print("*****************")
 print("Basic Salary \t:",basic)
