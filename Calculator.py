@@ -8,6 +8,7 @@ print("For Division \t\tEnter \t4")
 print("***********************************")
 op=int(input("Enter Arithmetic Function :"))
 
+
 match op:
     case 1:
         print(x,"+",y,"=",x+y)
@@ -16,7 +17,12 @@ match op:
     case 3:
         print(x,"*",y,"=",x*y)
     case 4:
-        print(x,"/",y,"=",x/y)
+        if((y==0) and (x==0)):
+            print("Undefinded")
+        elif(y==0):
+            print("Infinity")
+        else:
+            print(x,"/",y,"=",x/y)
     case _:
         print("Invalid input")
 
