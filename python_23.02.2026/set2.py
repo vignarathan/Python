@@ -18,3 +18,9 @@ print(e)         #a difference b
 
 f=b-a
 print(f)        #b difference a
+
+p=a.symmetric_difference(b)
+print(p)             #symmetric_differencex
+
+q=a^b
+print(q)      #symmetric_differencex
