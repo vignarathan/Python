@@ -24,4 +24,19 @@ print(s)
 s.discard("physics")
 print(s)
 
+'''s.remove("health")
+print(s)'''         #error will show.
+
+s.discard("health")
+print(s)   #there is no error if we give a not inizalaized value
+
+s.pop()
+print(s)
+
+s.clear()
+print(s)
+
+'''s.pop(2)
+print(s)'''        #error will come,because set is unordered
+
 
