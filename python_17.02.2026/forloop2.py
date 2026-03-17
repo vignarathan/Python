@@ -9,4 +9,4 @@ for y in range(10,0,-1):
 """for i in True:
     print(i)
     
-  it can not use here, here range used not condition"""
+  it can not use here,because we want to use range here not condition"""
